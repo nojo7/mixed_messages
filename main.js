@@ -1,4 +1,4 @@
-const messages = {
+const messagesObj = {
     encourage: [
         'Look, you have one shot. One opportunity at this life.',
         'Yesterday is the past. Seize everything you ever wanted.',
@@ -24,3 +24,12 @@ const messages = {
         'A goal is just a dream with a deadline. - Drake'
     ],
 };
+
+const messageGenerator = () => {
+    const encourage = Math.floor(Math.random() * messagesObj.encourage.length);
+    const inspire = Math.floor(Math.random() * messagesObj.inspire.length);
+    const quote = Math.floor(Math.random() * messagesObj.quote.length);
+    console.log(`${messagesObj.encourage[encourage]} ${messagesObj.inspire[inspire]}\n\n${messagesObj.quote[quote]}`);
+}
+
+messageGenerator();
