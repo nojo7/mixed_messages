@@ -1,3 +1,4 @@
+// Themed messages stored in an object to call on in the message generator function
 const messagesObj = {
     encourage: [
         'Look, you have one shot. One opportunity at this life.',
@@ -25,11 +26,13 @@ const messagesObj = {
     ],
 };
 
+// Gets random indexes for each property of the messagesObj and prints a dose of motivation
 const messageGenerator = () => {
     const encourage = Math.floor(Math.random() * messagesObj.encourage.length);
     const inspire = Math.floor(Math.random() * messagesObj.inspire.length);
     const quote = Math.floor(Math.random() * messagesObj.quote.length);
-    console.log(`${messagesObj.encourage[encourage]} ${messagesObj.inspire[inspire]}\n\n${messagesObj.quote[quote]}`);
+    console.log(`Here's your daily dose of motivation:\n${messagesObj.encourage[encourage]}\n${messagesObj.inspire[inspire]}\n${messagesObj.quote[quote]}`);
 }
 
+// Calls messageGenerator to print a random message of motivation to the console
 messageGenerator();
