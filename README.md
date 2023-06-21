@@ -1,6 +1,6 @@
 # Message Generator Program
 
-This is a message generator program that generates random messages each time it is run. The program utilizes JavaScript to create a randomized output consisting of at least three different pieces of data. You can customize the program to generate messages related to astrology, inspirational quotes, nonsensical jokes, or any other theme of your choice.
+This is a message generator program that generates random messages each time it is run. The program utilizes JavaScript to create a randomized output consisting of at least three different pieces of data. The theme of this program is to encourage, inspire and provide a quote.
 
 ## Project Objectives
 
@@ -9,17 +9,9 @@ This is a message generator program that generates random messages each time it 
 - Use the command line to execute and interact with the program.
 - Develop the project locally on your computer.
 
-## Prerequisites
-
-To work on this project, you should have a basic understanding of the following:
-
-- JavaScript: Familiarity with JavaScript syntax is required to build the message generator program.
-- Git and GitHub: Knowledge of version control using Git and hosting repositories on GitHub will be beneficial for managing your project.
-- Command line: You should be comfortable using the command line interface to run and interact with the program.
-
 ## Getting Started
 
-To get started with the message generator program, follow these steps:
+To create your own messages with the message generator program, follow these steps:
 
 1. Clone the project repository from GitHub using the following command: git clone https://github.com/your-username/mixed_messages.git
 
